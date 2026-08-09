@@ -1,0 +1,47 @@
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  min-width: 0;
+}
+
+.iconWrap {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.unlocked .iconWrap {
+  background: var(--accent-soft);
+  color: var(--accent-hover);
+}
+
+.locked {
+  opacity: 0.5;
+}
+
+.locked .iconWrap {
+  background: var(--bg-elevated-2);
+  color: var(--text-tertiary);
+}
+
+.title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.description {
+  font-size: 0.76rem;
+  color: var(--text-tertiary);
+  line-height: 1.35;
+}

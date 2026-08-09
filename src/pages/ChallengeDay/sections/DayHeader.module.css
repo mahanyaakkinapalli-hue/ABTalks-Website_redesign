@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding-top: var(--space-5);
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  align-self: flex-start;
+}
+
+.back:hover {
+  color: var(--text-primary);
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.dayLabel {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent-hover);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.statusPill {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+
+.statusCompleted {
+  color: var(--accent-2);
+  background: var(--accent-2-soft);
+}
+
+.statusCurrent {
+  color: var(--accent-hover);
+  background: var(--accent-soft);
+}
+
+.statusMissed {
+  color: var(--danger);
+  background: var(--danger-soft);
+}
+
+.statusUpcoming {
+  color: var(--text-tertiary);
+  background: var(--bg-elevated-2);
+}
+
+.title {
+  font-size: clamp(1.4rem, 5vw, 1.9rem);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.time {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  color: var(--text-tertiary);
+  font-weight: 600;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}

@@ -1,0 +1,85 @@
+.section {
+  padding: var(--space-9) 0;
+  background: var(--bg-elevated);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.kicker {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent-hover);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: var(--space-2);
+}
+
+.heading {
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  letter-spacing: -0.02em;
+  max-width: 600px;
+  margin-bottom: var(--space-3);
+}
+
+.lead {
+  font-size: 0.98rem;
+  color: var(--text-secondary);
+  max-width: 540px;
+  line-height: 1.6;
+  margin-bottom: var(--space-7);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+.card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+
+.iconWrap {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-4);
+}
+
+.githubIcon {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+.linkedinIcon {
+  background: var(--linkedin-soft);
+  color: var(--linkedin);
+}
+
+.midnightIcon {
+  background: var(--accent-soft);
+  color: var(--accent-hover);
+}
+
+.cardTitle {
+  font-size: 1.05rem;
+  margin-bottom: var(--space-2);
+}
+
+.cardText {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

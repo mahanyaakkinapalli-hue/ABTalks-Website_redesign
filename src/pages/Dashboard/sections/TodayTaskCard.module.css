@@ -1,0 +1,67 @@
+.card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.kicker {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-hover);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.donePill {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--accent-2);
+  background: var(--accent-2-soft);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+}
+
+.title {
+  font-size: 1.25rem;
+  letter-spacing: -0.01em;
+}
+
+.mission {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.time {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  color: var(--text-tertiary);
+  font-weight: 600;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}

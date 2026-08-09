@@ -1,0 +1,56 @@
+.badge {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.iconWrap {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--warning-soft);
+  color: var(--warning);
+}
+
+.lg .iconWrap {
+  width: 56px;
+  height: 56px;
+}
+
+.empty .iconWrap {
+  background: var(--bg-elevated-2);
+  color: var(--text-tertiary);
+}
+
+.count {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.lg .count {
+  font-size: 1.5rem;
+}
+
+.count span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.caption {
+  margin: 1px 0 0;
+  font-size: 0.78rem;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+.empty .count {
+  font-size: 1rem;
+}

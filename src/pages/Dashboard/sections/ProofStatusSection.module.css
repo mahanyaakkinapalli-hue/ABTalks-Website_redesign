@@ -1,0 +1,81 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.heading {
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+}
+
+.statusGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+}
+
+.statusCard {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+
+.iconWrap {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.githubIcon {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+}
+
+.linkedinIcon {
+  background: var(--linkedin-soft);
+  color: var(--linkedin);
+}
+
+.statusText {
+  flex: 1;
+  min-width: 0;
+}
+
+.statusTitle {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.statusSub {
+  font-size: 0.78rem;
+  color: var(--text-tertiary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.connected {
+  color: var(--accent-2);
+  flex-shrink: 0;
+}
+
+.disconnected {
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+}
+
+@media (min-width: 640px) {
+  .statusGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

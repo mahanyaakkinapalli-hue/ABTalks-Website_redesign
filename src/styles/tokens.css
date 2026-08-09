@@ -1,0 +1,65 @@
+:root {
+  /* Surfaces */
+  --bg: #0a0a10;
+  --bg-elevated: #14141d;
+  --bg-elevated-2: #1c1c28;
+  --bg-hover: #22222f;
+
+  /* Borders */
+  --border: rgba(255, 255, 255, 0.09);
+  --border-strong: rgba(255, 255, 255, 0.16);
+
+  /* Text */
+  --text-primary: #f6f6f8;
+  --text-secondary: #a7a7b4;
+  --text-tertiary: #6f6f7d;
+
+  /* Brand accents */
+  --accent: #8b5cf6;
+  --accent-hover: #9d72ff;
+  --accent-soft: rgba(139, 92, 246, 0.14);
+  --accent-2: #22d3a5;
+  --accent-2-soft: rgba(34, 211, 165, 0.14);
+  --warning: #ffb020;
+  --warning-soft: rgba(255, 176, 32, 0.14);
+  --danger: #ff5470;
+  --danger-soft: rgba(255, 84, 112, 0.14);
+  --linkedin: #4a9de8;
+  --linkedin-soft: rgba(74, 157, 232, 0.14);
+
+  --gradient-brand: linear-gradient(135deg, #8b5cf6 0%, #6d5bff 45%, #22d3a5 100%);
+  --gradient-text: linear-gradient(135deg, #c9b3ff 0%, #8b5cf6 55%, #5fe3c0 100%);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 48px;
+  --space-9: 64px;
+  --space-10: 96px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 999px;
+
+  /* Shadow */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 8px 40px rgba(139, 92, 246, 0.25);
+
+  /* Layout */
+  --container-max: 1180px;
+  --nav-height: 64px;
+  --bottom-nav-height: 68px;
+}
